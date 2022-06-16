@@ -1,0 +1,22 @@
+{
+  "BASE_URL": "https://rallismart.jamstack.vn",
+  "SITE_NAME": "rallismart.jamstack.vn",
+  "SITE_TITLE": "RalliSmart - Bước đầu cho cuộc sống thông minh",
+  "SITE_DESCRIPTION": "RalliSmart là thương hiệu chuyên biệt về Giải pháp Chiếu sáng Thông minh, Chiếu sáng vì con người của Công ty Cổ phần Bóng điện - Phích nước Rạng Đông, nhằm cung cấp những giải pháp tối ưu cho người Việt.",
+  "SITE_COVER": "/cover.jpg",
+  "SITE_LOGO": "/logo.png",
+
+  "SITE_HOTLINE": null,
+
+  "GOOGLE_ANALYTICS_ID": null,
+  "GOOGLE_TAG_MANAGER_ID": null,
+  "FACEBOOK_PIXEL_ID": null,
+
+  "SOCIAL_LINKS": {
+    "FACEBOOK": null,
+    "INSTAGRAM": null,
+    "YOUTUBE": null,
+    "PINTEREST": null,
+    "TWITTER": null
+  }
+}

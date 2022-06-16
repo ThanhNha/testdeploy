@@ -1,0 +1,39 @@
+---
+sections:
+  -
+    type: heading
+    cmscode: z0vc2qvr9
+    label: Blog
+  -
+    type: directory
+    cmscode: fcqftoh28
+    path: content/vi/blog
+    label: Blog
+    template: blogs.yml
+  -
+    type: heading
+    cmscode: 86k38884a
+    label: 'Thông tin liên hệ'
+  -
+    type: form
+    cmscode: a6a6q79sx
+    code: vqxWveMM4Z
+    label: 'Thông tin liên hệ'
+locales:
+  - vi
+  - en
+analytics_url:
+google_analytics_id:
+google_tag_manager_id:
+facebook_pixel_id:
+microsoft_clarity_id:
+webhook_url:
+code: rallismart-frontend
+cmsCreatedAt: 1648105373
+cmsUpdatedAt: 1648105373
+cmsCreatedBy:
+  email: hello@jamstackvietnam.com
+  name: 'JAMstack Vietnam'
+cmsUpdatedBy:
+  email: hello@jamstackvietnam.com
+  name: 'JAMstack Vietnam'

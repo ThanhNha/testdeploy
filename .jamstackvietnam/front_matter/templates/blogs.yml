@@ -1,0 +1,89 @@
+---
+label: Blogs
+hide_body: false
+fields:
+  -
+    type: file
+    label: Ảnh
+    name: image
+    description:
+    default: {  }
+    config:
+      required: true
+      maxSize: 10
+    showOnly:
+      field:
+      value:
+    code: x60b03ogc
+  -
+    type: text
+    label: 'Tiêu đề'
+    name: title
+    description:
+    default:
+    config:
+      required: true
+      min:
+      max:
+    hidden: false
+    showOnly:
+      field:
+      value:
+    code: 6u51b9aao
+    useAsSlug: true
+  -
+    type: textarea
+    label: 'Mô tả'
+    name: description
+    description:
+    default:
+    config:
+      required: false
+      min:
+      max:
+      wysiwyg: false
+      schema:
+        format: markdown
+    showOnly:
+      field:
+      value:
+    code: 2imjmnju1
+  -
+    type: select
+    label: Tags
+    name: tags
+    description:
+    default:
+    config:
+      required: false
+      options: {  }
+      source:
+        type: directory
+        section_code:
+      taggable: false
+      multiple: true
+      searchable: false
+      label:
+    showOnly:
+      field:
+      value:
+    code: 6lvwqjno3
+  -
+    type: toggle
+    label: 'Bài viết Hot'
+    name: isHot
+    description:
+    default: false
+    config: {  }
+    showOnly:
+      field:
+      value:
+    code: gf17dhuek
+cmsCreatedAt: 1648110129
+cmsUpdatedAt: 1648110129
+cmsCreatedBy:
+  email: hello@jamstackvietnam.com
+  name: 'JAMstack Vietnam'
+cmsUpdatedBy:
+  email: hello@jamstackvietnam.com
+  name: 'JAMstack Vietnam'
